@@ -1,0 +1,10 @@
+/* apply a natural box layout model to all elements, but allowing components to change */
+html {
+    box-sizing: border-box;
+    /*  con este codigo se reajusta el tamaño en los css para que px sea similar a rem para mayor facilidad  */
+    /*  1 Rem es igual a 10 PX*/
+    font-size: 62.25%;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
